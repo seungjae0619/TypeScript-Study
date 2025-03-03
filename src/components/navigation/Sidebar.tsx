@@ -18,8 +18,8 @@ const Sidebar: React.FC<SidebarProps> = ({ items }) => {
   const location = useLocation();
 
   return (
-    <div className="w-64 h-screen bg-blue-400 text-white fixed left-0 top-0 overflow-y-auto">
-      <div className="p-4">
+    <div className="w-76 h-screen bg-blue-400 text-white fixed left-0 top-0 overflow-y-auto">
+      <div className="p-4 ml-4">
         <div className="flex items-center ">
           <img
             className="size-12"
@@ -42,8 +42,8 @@ const Sidebar: React.FC<SidebarProps> = ({ items }) => {
                     to={item.path}
                     className={`flex items-center p-2 rounded transition-colors ${
                       isActive
-                        ? "bg-blue-600 text-white font-medium" // 활성화된 항목 스타일
-                        : "hover:bg-blue-500" // 비활성화된 항목의 호버 스타일
+                        ? "bg-blue-600 text-white font-medium w-55" // 활성화된 항목 스타일
+                        : "hover:bg-blue-500 w-55" // 비활성화된 항목의 호버 스타일
                     }`}
                   >
                     {item.icon && <span className="mr-3">{item.icon}</span>}

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Chapter01() {
   return (
-    <div className="flex justify-center items-center w-full">
-      <div className="text-gray-600 text-center max-w-3xl">
+    <div className="flex justify-center items-center w-full mt-10">
+      <div className="text-gray-600 text-center max-w-5xl bg-white p-12 rounded-xl">
         <h1 className=" text-xl font-bold">01장 들어가며</h1>
         <div className="mt-10 text-left text-lg">
           <p>자바스크립트의 한계와 타입스크립트의 등장 배경</p>

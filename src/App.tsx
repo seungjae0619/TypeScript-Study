@@ -28,10 +28,10 @@ const sidebarItems = [
 function App() {
   return (
     <Router>
-      <div className="flex">
+      <div className="flex ">
         <Sidebar items={sidebarItems} />
 
-        <div className="ml-70 p-8 w-full">
+        <div className="ml-70 p-8 w-full ">
           <Routes>
             <Route path="/home" element={<Home />} />
             <Route path="/chapters/01" element={<Chapter01 />} />
