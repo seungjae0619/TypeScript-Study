@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 // 사이드바 메뉴 아이템 타입 정의
@@ -14,7 +13,7 @@ interface SidebarProps {
   items: MenuItem[];
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ items }) => {
+const Sidebar = ({ items }: SidebarProps) => {
   const location = useLocation();
 
   return (

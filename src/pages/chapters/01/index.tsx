@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Chapter01() {
   return (
     <div className="flex justify-center items-center w-full mt-10">

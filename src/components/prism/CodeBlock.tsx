@@ -13,7 +13,7 @@ const CodeBlock: React.FC<CodeBlockProps> = ({ code, language }) => {
       code={code.trim()}
       language={language}
     >
-      {({ className, style, tokens, getLineProps, getTokenProps }) => (
+      {({ style, tokens, getLineProps, getTokenProps }) => (
         <pre
           className="rounded-md p-4 overflow-auto my-4 text-left"
           style={style}

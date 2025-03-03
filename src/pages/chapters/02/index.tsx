@@ -1,6 +1,3 @@
-import React from "react";
-import CodeBlock from "../../../components/prism/CodeBlock";
-
 export default function Chapter02() {
   return (
     <div className="flex justify-center items-center w-full">
