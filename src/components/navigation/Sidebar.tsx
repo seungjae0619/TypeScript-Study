@@ -17,8 +17,8 @@ const Sidebar = ({ items }: SidebarProps) => {
   const location = useLocation();
 
   return (
-    <div className="w-76 h-screen bg-blue-400 text-white fixed left-0 top-0 overflow-y-auto">
-      <div className="p-4 ml-4">
+    <div className="w-68 h-screen bg-blue-400 text-white fixed left-0 top-0 overflow-y-auto">
+      <div className="p-4 ml-1">
         <div className="flex items-center ">
           <img
             className="size-12"
